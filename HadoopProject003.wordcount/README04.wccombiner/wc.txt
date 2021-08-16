@@ -1,0 +1,4 @@
+hadoop hdfs hadoop
+hdfs yanqi hadoop
+mapreduce mr yarn
+yarn mr mapreduce

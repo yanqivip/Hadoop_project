@@ -25,7 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/yanqi/mr/speak" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/yanqi/mr/group" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RebelAgentSelection">
@@ -33,12 +33,53 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\speak" />
-      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\writabletest" />
-      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\wc" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\group" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\sort" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\WcCombiner\sort" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\WcCombiner" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\partition" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpeakDriver">
+  <component name="RunManager" selected="Application.GroupDriver">
+    <configuration name="GroupDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.group.GroupDriver" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.partition.PartitionDriver" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.partition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.sort.SortDriver" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpeakDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.speak.SpeakDriver" />
       <module name="wordcount" />
@@ -67,12 +108,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordCountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.WcCombiner.WordCountDriver" />
+      <module name="wordcount" />
+      <option name="PROGRAM_PARAMETERS" value="e:/wc.txt e:/output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.WcCombiner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.WordCountDriver" />
       <item itemvalue="Application.SpeakDriver" />
+      <item itemvalue="Application.PartitionDriver" />
+      <item itemvalue="Application.SortDriver" />
+      <item itemvalue="Application.GroupDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupDriver" />
+        <item itemvalue="Application.SortDriver" />
+        <item itemvalue="Application.PartitionDriver" />
         <item itemvalue="Application.SpeakDriver" />
         <item itemvalue="Application.WordCountDriver" />
       </list>
@@ -89,6 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629021416950</updated>
       <workItem from="1629021419578" duration="12565000" />
+      <workItem from="1629091076406" duration="10756000" />
     </task>
     <servers />
   </component>
@@ -96,34 +158,47 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="160" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629039765116">
-      <screen x="71" y="0" width="1295" height="768" />
+    <state x="227" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629130945941">
+      <screen x="72" y="0" width="1294" height="768" />
     </state>
     <state x="160" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/71.0.1295.768@71.0.1295.768" timestamp="1629039765116" />
+    <state x="227" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.0.1294.768@72.0.1294.768" timestamp="1629130945941" />
     <state x="498" y="139" key="FileChooserDialogImpl" timestamp="1629035080834">
       <screen x="71" y="0" width="1295" height="768" />
     </state>
     <state x="498" y="139" key="FileChooserDialogImpl/71.0.1295.768@71.0.1295.768" timestamp="1629035080834" />
-    <state width="1251" height="370" key="GridCell.Tab.0.bottom" timestamp="1629040418281">
-      <screen x="71" y="0" width="1295" height="768" />
+    <state width="1250" height="-9" key="GridCell.Tab.0.bottom" timestamp="1629131175320">
+      <screen x="72" y="0" width="1294" height="768" />
     </state>
     <state width="1251" height="370" key="GridCell.Tab.0.bottom/71.0.1295.768@71.0.1295.768" timestamp="1629040418281" />
-    <state width="1251" height="370" key="GridCell.Tab.0.center" timestamp="1629040418281">
-      <screen x="71" y="0" width="1295" height="768" />
+    <state width="1250" height="-9" key="GridCell.Tab.0.bottom/72.0.1294.768@72.0.1294.768" timestamp="1629131175320" />
+    <state width="1250" height="-9" key="GridCell.Tab.0.center" timestamp="1629131175320">
+      <screen x="72" y="0" width="1294" height="768" />
     </state>
     <state width="1251" height="370" key="GridCell.Tab.0.center/71.0.1295.768@71.0.1295.768" timestamp="1629040418281" />
-    <state width="1251" height="370" key="GridCell.Tab.0.left" timestamp="1629040418280">
-      <screen x="71" y="0" width="1295" height="768" />
+    <state width="1250" height="-9" key="GridCell.Tab.0.center/72.0.1294.768@72.0.1294.768" timestamp="1629131175320" />
+    <state width="1250" height="-9" key="GridCell.Tab.0.left" timestamp="1629131175320">
+      <screen x="72" y="0" width="1294" height="768" />
     </state>
     <state width="1251" height="370" key="GridCell.Tab.0.left/71.0.1295.768@71.0.1295.768" timestamp="1629040418280" />
-    <state width="1251" height="370" key="GridCell.Tab.0.right" timestamp="1629040418281">
-      <screen x="71" y="0" width="1295" height="768" />
+    <state width="1250" height="-9" key="GridCell.Tab.0.left/72.0.1294.768@72.0.1294.768" timestamp="1629131175320" />
+    <state width="1250" height="-9" key="GridCell.Tab.0.right" timestamp="1629131175320">
+      <screen x="72" y="0" width="1294" height="768" />
     </state>
     <state width="1251" height="370" key="GridCell.Tab.0.right/71.0.1295.768@71.0.1295.768" timestamp="1629040418281" />
+    <state width="1250" height="-9" key="GridCell.Tab.0.right/72.0.1294.768@72.0.1294.768" timestamp="1629131175320" />
     <state x="219" y="26" key="SettingsEditor" timestamp="1629021477554">
       <screen x="71" y="0" width="1295" height="768" />
     </state>
     <state x="219" y="26" key="SettingsEditor/71.0.1295.768@71.0.1295.768" timestamp="1629021477554" />
+    <state x="375" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1629091074915">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state x="375" y="208" key="com.intellij.ide.util.TipDialog/72.0.1294.768@72.0.1294.768" timestamp="1629091074915" />
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1629110556928">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.0.1294.768@72.0.1294.768" timestamp="1629110556928" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
