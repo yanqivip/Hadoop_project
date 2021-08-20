@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="983bc37f-4d6d-4a11-83d9-84ac64b9b43f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wdJuWK6pfDyzSDMnpOjGBvjONL" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="coding_rules" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager" selected="JUnit.HdfsClientDemo">
+    <configuration name="HdfsClientDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yanqi.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.hdfs.HdfsClientDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsClientDemo00.testUploadPacket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yanqi.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.yanqi.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="cn.yanqi.hdfs.HdfsClientDemo00" />
+      <option name="METHOD_NAME" value="testUploadPacket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsClientDemo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yanqi.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.yanqi.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="cn.yanqi.hdfs.HdfsClientDemo01" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsClientDemo12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yanqi.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.yanqi.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="cn.yanqi.hdfs.HdfsClientDemo12" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsClientDemo.testUploadPacket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yanqi.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.hdfs.HdfsClientDemo" />
+      <option name="METHOD_NAME" value="testUploadPacket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HdfsClientDemo" />
+        <item itemvalue="JUnit.HdfsClientDemo01" />
+        <item itemvalue="JUnit.HdfsClientDemo00.testUploadPacket" />
+        <item itemvalue="JUnit.HdfsClientDemo12" />
+        <item itemvalue="JUnit.HdfsClientDemo.testUploadPacket" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="983bc37f-4d6d-4a11-83d9-84ac64b9b43f" name="Default Changelist" comment="" />
+      <created>1628782754181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628782754181</updated>
+      <workItem from="1628782758795" duration="1081000" />
+      <workItem from="1628818662715" duration="15939000" />
+      <workItem from="1628858487441" duration="2332000" />
+      <workItem from="1628866131608" duration="708000" />
+      <workItem from="1628926588339" duration="93000" />
+      <workItem from="1628938805624" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="310" y="42" key="#Project_Structure" timestamp="1628819752916">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state x="310" y="42" key="#Project_Structure/71.0.1295.768@71.0.1295.768" timestamp="1628819752916" />
+    <state width="1252" height="177" key="GridCell.Tab.0.bottom" timestamp="1628938920665">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state width="1252" height="177" key="GridCell.Tab.0.bottom/71.0.1295.768@71.0.1295.768" timestamp="1628938920665" />
+    <state width="1252" height="177" key="GridCell.Tab.0.center" timestamp="1628938920664">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state width="1252" height="177" key="GridCell.Tab.0.center/71.0.1295.768@71.0.1295.768" timestamp="1628938920664" />
+    <state width="1252" height="177" key="GridCell.Tab.0.left" timestamp="1628938920664">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state width="1252" height="177" key="GridCell.Tab.0.left/71.0.1295.768@71.0.1295.768" timestamp="1628938920664" />
+    <state width="1252" height="177" key="GridCell.Tab.0.right" timestamp="1628938920664">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state width="1252" height="177" key="GridCell.Tab.0.right/71.0.1295.768@71.0.1295.768" timestamp="1628938920664" />
+    <state x="375" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1628818662785">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state x="375" y="208" key="com.intellij.ide.util.TipDialog/71.0.1295.768@71.0.1295.768" timestamp="1628818662785" />
+    <state x="93" y="0" key="new project wizard" timestamp="1628858574225">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state x="93" y="0" key="new project wizard/71.0.1295.768@71.0.1295.768" timestamp="1628858574225" />
+    <state x="375" y="172" key="run.anything.popup" timestamp="1628828098204">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state x="375" y="172" key="run.anything.popup/71.0.1295.768@71.0.1295.768" timestamp="1628828098204" />
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1628830037156">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/71.0.1295.768@71.0.1295.768" timestamp="1628830037156" />
+  </component>
+</project>

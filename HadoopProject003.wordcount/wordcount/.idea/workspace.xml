@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73ae0537-e0be-4402-a07f-4ae673b62ead" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wl7eXtaB4fHO9g8CVEARgdJ9rd" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/yanqi/mr/comment" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yanqi.mr.comment.step1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yanqi.mr.comment.step1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\comment" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\comment\step1" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\snappy" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\output" />
+      <recent name="E:\NO.Z.10000——javaproject\NO.Z.00002.Hadoop\wordcount\src\main\java\com\yanqi\mr\sequence" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CommentDriver">
+    <configuration name="CombineDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.comment.step1.CombineDriver" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.comment.step1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.comment.step3.CommentDriver" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.comment.step3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.comment.step2.MergeDriver" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.comment.step2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutputDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.output.OutputDriver" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.output.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.sequence.SequenceDriver" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.sequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanqi.mr.WcCombiner.WordCountDriver" />
+      <module name="wordcount" />
+      <option name="PROGRAM_PARAMETERS" value="e:/wc.txt e:/output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanqi.mr.WcCombiner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WordCountDriver" />
+      <item itemvalue="Application.SequenceDriver" />
+      <item itemvalue="Application.OutputDriver" />
+      <item itemvalue="Application.MergeDriver" />
+      <item itemvalue="Application.CommentDriver" />
+      <item itemvalue="Application.CombineDriver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CommentDriver" />
+        <item itemvalue="Application.MergeDriver" />
+        <item itemvalue="Application.CombineDriver" />
+        <item itemvalue="Application.SequenceDriver" />
+        <item itemvalue="Application.OutputDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73ae0537-e0be-4402-a07f-4ae673b62ead" name="Default Changelist" comment="" />
+      <created>1629021416950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629021416950</updated>
+      <workItem from="1629021419578" duration="12565000" />
+      <workItem from="1629091076406" duration="10756000" />
+      <workItem from="1629169382486" duration="18806000" />
+      <workItem from="1629252307498" duration="5310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="160" y="66" width="1092" height="669" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629207497222">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state x="160" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/71.0.1295.768@71.0.1295.768" timestamp="1629039765116" />
+    <state x="160" y="66" width="1092" height="669" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.0.1294.768@72.0.1294.768" timestamp="1629207497222" />
+    <state x="498" y="139" key="FileChooserDialogImpl" timestamp="1629035080834">
+      <screen x="71" y="0" width="1295" height="768" />
+    </state>
+    <state x="498" y="139" key="FileChooserDialogImpl/71.0.1295.768@71.0.1295.768" timestamp="1629035080834" />
+    <state width="1250" height="258" key="GridCell.Tab.0.bottom" timestamp="1629288152739">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state width="1251" height="370" key="GridCell.Tab.0.bottom/71.0.1295.768@71.0.1295.768" timestamp="1629040418281" />
+    <state width="1250" height="258" key="GridCell.Tab.0.bottom/72.0.1294.768@72.0.1294.768" timestamp="1629288152739" />
+    <state width="1250" height="258" key="GridCell.Tab.0.center" timestamp="1629288152739">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state width="1251" height="370" key="GridCell.Tab.0.center/71.0.1295.768@71.0.1295.768" timestamp="1629040418281" />
+    <state width="1250" height="258" key="GridCell.Tab.0.center/72.0.1294.768@72.0.1294.768" timestamp="1629288152739" />
+    <state width="1250" height="258" key="GridCell.Tab.0.left" timestamp="1629288152739">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state width="1251" height="370" key="GridCell.Tab.0.left/71.0.1295.768@71.0.1295.768" timestamp="1629040418280" />
+    <state width="1250" height="258" key="GridCell.Tab.0.left/72.0.1294.768@72.0.1294.768" timestamp="1629288152739" />
+    <state width="1250" height="258" key="GridCell.Tab.0.right" timestamp="1629288152739">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state width="1251" height="370" key="GridCell.Tab.0.right/71.0.1295.768@71.0.1295.768" timestamp="1629040418281" />
+    <state width="1250" height="258" key="GridCell.Tab.0.right/72.0.1294.768@72.0.1294.768" timestamp="1629288152739" />
+    <state x="249" y="39" key="Maven.ArtifactSearchDialog" timestamp="1629212276306">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state x="249" y="39" key="Maven.ArtifactSearchDialog/72.0.1294.768@72.0.1294.768" timestamp="1629212276306" />
+    <state x="220" y="26" key="SettingsEditor" timestamp="1629213655498">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state x="219" y="26" key="SettingsEditor/71.0.1295.768@71.0.1295.768" timestamp="1629021477554" />
+    <state x="220" y="26" key="SettingsEditor/72.0.1294.768@72.0.1294.768" timestamp="1629213655498" />
+    <state x="375" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1629253274999">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state x="375" y="208" key="com.intellij.ide.util.TipDialog/72.0.1294.768@72.0.1294.768" timestamp="1629253274999" />
+    <state x="375" y="172" key="run.anything.popup" timestamp="1629204188297">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state x="375" y="172" key="run.anything.popup/72.0.1294.768@72.0.1294.768" timestamp="1629204188297" />
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1629110556928">
+      <screen x="72" y="0" width="1294" height="768" />
+    </state>
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.0.1294.768@72.0.1294.768" timestamp="1629110556928" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yanqi/mr/speak/SpeakDriver.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
